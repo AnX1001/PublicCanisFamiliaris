@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer løshunder</title>
+    <link rel="stylesheet" href="./styling.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+   <header>
+    <h1 class="webTitle">Canis Familiaris</h1>
+       
+   </header>
+    
+    <class class="register">
+        <h1>Søk i hundedatabase</h1>
+        <input class="InpSok" type="text" placeholder="Skriv navn på hund eller type...">
+        <p></p>
+        <div class="heroDog">
+            <img class="heroImage">
+            <h1 class="heroName">Menneskets bestevenn trenger din hjelp</h1>
+            <h3 class="heroStam"></h3>
+            <p class="heroDesc"></p>
+        </div>
+        
+    </class>
+    <div class="line"></div>
+    <h1 class="sokT">Registrer ny hund</h1>
+    <div class="registering"> 
+        <textarea name="" id="inpDesc" cols="40" rows="3" placeholder="beskrivelse"></textarea> 
+        <div class="boxBTNS">
+            <input id="inpName" class="regInp" type="text"placeholder="Navn">
+            <input class="regInp" id="inpStam" type="text" placeholder="Hunderase"><input id="inpFile" class="regInp" type="file">
+            <label for="inpFile" class="labelBTN">Velg hundebilde</label>      
+            <button class="regHund" onchange="loadFile(event)">Registrer hund</button>
+        </div>  
+    </div>
+
+    <div class="hunder">
+        <div>
+            <h1 class="status">Sist registrert</h1>
+        <div class="hund">
+            <img id="bb" class="hundebilde"></img>
+            <h1 class="hNavn"> </h1>
+        
+
+            <p class="beskrivelse"></p>
+        </div>
+        </div>
+    </div>
+    <div class="line"></div>
+        <h1 class="MineRegistrerteHunderTittel">Registrerte hunder</h1>
+    <div class="MineRegistrerteHunder">
+        
+        
+    </div>
+
+
+  <!-- Firebase setuo -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-storage.js"></script>
+<!-- <script src="/__/firebase/7.18.0/firebase-auth.js"></script> -->
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "hidden",
+    authDomain: "hidden",
+    databaseURL: "hidden",
+    projectId: "hidden",
+    storageBucket: "hidden",
+    messagingSenderId: "hidden",
+    appId: "hidden",
+    measurementId: "G-hidden"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+ 
+</body>
+<script src="./script.js"></script>
+<script src="./firebase.js"></script>
+</html>
+
+

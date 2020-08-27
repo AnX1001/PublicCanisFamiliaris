@@ -1,0 +1,362 @@
+
+
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 4px;
+   
+   
+
+}
+
+h1 {
+    margin: 1%;
+}
+.sokT {
+    text-align: left;
+    
+}
+
+header {
+    background-image: linear-gradient(to left, turquoise , black);
+    height: 100px;
+    width: auto;
+    display: flex; 
+    align-items: center;
+   
+}
+
+.webTitle {
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+}
+
+.heroName {
+    font-size: 25px;
+}
+/* skjema styling */
+
+.registering {
+    display: flex;
+}
+
+.boxBTNS {
+  margin: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4px;
+}
+input {
+    margin: 1%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    text-align: center;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    width: 120px;
+    padding: 0px;
+
+
+}
+
+textarea {
+    margin: 1%;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    letter-spacing: 1.5px;
+    color: steelblue;
+    resize: none;
+    padding-top: 30px;
+    height: fit-content;
+    outline: none;
+  
+}
+   
+
+
+#inpFile {
+    display: inline;
+  
+}
+
+input:hover {
+    box-shadow: 1px 3px 10px rgb(227, 229, 231);
+
+}
+button {
+    margin: 1%;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    background-color: turquoise;
+    
+
+}
+
+.editButtons {
+    margin: 1%;
+    height: 28px;
+    width: 65px;
+    color: black; 
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    background-image: none;
+
+}
+
+
+.deleteButtons {
+    margin: 1%;
+    height: 28px;
+    width: 65px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+    background-image: none;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+
+}
+
+
+
+.line {
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    border-width: 0 0 1px 0px;
+    padding-top: 100px;
+   
+    
+   
+}
+
+#inpFile {
+    width: auto;
+    border: 1px solid black;
+    display: none;
+}
+
+.labelBTN {
+    height: 50px;
+    width: 120px;
+    border: 1px solid rgb(240, 243, 246);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    display: block;
+    margin: 1%;
+    text-align: center;
+    font-size: 13.5px;
+    display: grid;
+    align-content: center;
+    padding: 0px;
+
+}
+
+.labelBTN:hover {
+    box-shadow: 1px 3px 15px rgb(227, 229, 231);
+    cursor: pointer;
+   
+    
+
+}
+
+button:hover {
+    box-shadow: 1px 3px 15px rgb(227, 229, 231);
+    cursor: pointer;
+
+}
+.hunder {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.registering {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hund {
+    margin: 1%;
+    height: 260px;
+    width: 180px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    text-align: left;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.newCard {
+    margin: 1%;
+    height: 220px;
+    width: 140px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    text-align: left;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+.newCard:hover {
+    width: 250px;
+    height: 280px;
+
+    transition: .5s;
+}
+
+
+.hNavn {
+    font-size: 20px;
+    
+}
+.newCard:hover {
+    box-shadow: 1px 3px 15px rgb(227, 229, 231);
+}
+h1 {
+    text-align: left;
+
+
+}
+.hund:hover {
+    box-shadow: 1px 3px 15px rgb(227, 229, 231);
+
+}
+
+.beskrivelse {
+    padding: 2%;
+    font-size: 1.5vh;
+    overflow: hidden; 
+    max-height: 100px;
+   
+}
+
+.hundebilde {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/02/21/56/dog-2810484_960_720.jpg');
+    background-size: cover;
+    object-fit: cover;
+    width: inherit;
+    height: 55%;
+    border-radius: 8px;
+
+}
+
+.newHundebilde {
+    width: inherit;
+    max-height: 55%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top;
+  
+}
+
+
+
+/*  register  */
+.regCard {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 1%;
+    border: 1px solid;
+    height: 280px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    text-align: left;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  
+}
+
+.heroDog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1%;
+    border: 1px solid;
+    height: 480px;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 243, 246);
+    text-align: left;
+    box-shadow: 1px 3px 8px rgb(240, 243, 246);
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+   
+  
+  
+
+}
+
+
+.dogPictures, .recentImage, .heroImage {
+    height: 55%;
+    width: inherit;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+
+}
+
+.heroImage {
+    background-image: url('https://images.unsplash.com/photo-1562940111-b7c83c810a03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+}
+
+.registrerteHunder {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1%;
+    margin-left: 1%;
+   
+}
+
+.InpSok {
+    width: 350px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.MineRegistrerteHunderTittel {
+    text-align: left;
+    
+}
+
+.MineRegistrerteHunder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 600px;
+}
